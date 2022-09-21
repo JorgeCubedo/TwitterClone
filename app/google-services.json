@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "397604888919",
+    "project_id": "twitter-clone-cubo",
+    "storage_bucket": "twitter-clone-cubo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397604888919:android:2446bdc8d07a01734d9e12",
+        "android_client_info": {
+          "package_name": "com.cubo.twitterclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397604888919-om3boehhf7t3tk5ch38ngn52n1036l8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDybqZbUzkt9QAhvGSk8Ncb6puBk-5x5lY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397604888919-om3boehhf7t3tk5ch38ngn52n1036l8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
