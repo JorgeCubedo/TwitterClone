@@ -62,6 +62,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         ImageButton btnMenu = findViewById(R.id.btn_menu);
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
 
+        //abre y cierra el drawer menu.
         btnMenu.setOnClickListener(v -> {
             if (drawer.isDrawerOpen(GravityCompat.START)){
                 drawer.closeDrawer(GravityCompat.START);
@@ -70,6 +71,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
+        //Muestra los twits.
         tweetRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -108,6 +110,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         });
     }
 
+    //Cierra sesion.
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);

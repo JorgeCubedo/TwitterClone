@@ -48,7 +48,7 @@ public class NewTweetActivity extends AppCompatActivity {
             } else
                 Log.e("btnTweet", "Enabled");
 
-            if (!edt_tweet.getText().toString().equals("") || edt_tweet.getText().toString().isEmpty()) {
+            if (edt_tweet.getText().toString().equals("") || edt_tweet.getText().toString().isEmpty()) {
                 try {
                     String key = tweetRef.push().getKey();
 //                if (key != null) {
